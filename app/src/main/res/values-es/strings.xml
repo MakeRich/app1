@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sims App</string>
+    <string name="introducir_usuario">Introduce tu nombre de usuario</string>
+
+    <!-- Sims 1 -->
+    <string-array name="sims1_expansion_packs">
+        <item>Los Sims: Más Vivos que Nunca</item>
+        <item>Los Sims: House Party</item>
+        <item>Los Sims: Primera Cita</item>
+        <item>Los Sims: de Vacaciones</item>
+        <item>Los Sims: Animales a Raudales</item>
+        <item>Los Sims: Superstar</item>
+        <item>Los Sims: Magia Potagia</item>
+    </string-array>
+
+    <string-array name="sims1_compilation_packs">
+        <item>Los Sims: Edición Deluxe</item>
+        <item>Los Sims: Megaluxe</item>
+        <item>Los Sims: Gigaluxe</item>
+        <item>Los Sims: La familia al completo</item>
+    </string-array>
+
+    <!-- Sims 2-->
+    <string-array name="sims2_expansion_packs">
+        <item>Los Sims 2: Universitarios</item>
+        <item>Los Sims 2: Noctámbulos</item>
+        <item>Los Sims 2: Abren Negocios</item>
+        <item>Los Sims 2: Mascotas</item>
+        <item>Los Sims 2: Y las Cuatro Estaciones</item>
+        <item>Los Sims 2: Bon Voyage</item>
+        <item>Los Sims 2: Y sus Hobbies</item>
+        <item>Los Sims 2: Comparten Piso</item>
+    </string-array>
+
+    <string-array name="sims2_stuff_packs">
+        <item>Los Sims 2: Decora tu Familia</item>
+        <item>Los Sims 2: Todo Glamour</item>
+        <item>Los Sims 2: Navidad</item>
+        <item>Los Sims 2: ¡De Fiesta!</item>
+        <item>Los Sims 2: H&amp;amp;M Moda</item>
+        <item>Los Sims 2: Jóvenes Urbanos</item>
+        <item>Los Sims 2: Cocina y Baño Diseño de Interiores</item>
+        <item>Los Sims 2: IKEA</item>
+        <item>Los Sims 2: Mansiones y Jardines</item>
+    </string-array>
+
+    <string-array name="sims2_compilation_packs">
+        <item>Los Sims 2: Edición Navideña</item>
+        <item>Los Sims 2: Holiday Edition</item>
+        <item>Los Sims 2: Deluxe</item>
+        <item>Los Sims 2: Megaluxe</item>
+        <item>Los Sims 2: Vida en el campus - Colección</item>
+        <item>Los Sims 2: Shopping - Colección</item>
+        <item>Los Sims 2: Decomascotas - Colección</item>
+    </string-array>
+
+    <!-- Sims 3 -->
+    <string-array name="sims3_expansion_packs">
+        <item>TLos Sims 3: Trotamundos</item>
+        <item>Los Sims 3: Triunfadores</item>
+        <item>Los Sims 3: Al Caer La Noche</item>
+        <item>Los Sims 3: ¡Menuda Familia!</item>
+        <item>Los Sims 3: ¡Vaya fauna!</item>
+        <item>Los Sims 3: Salto a la fama</item>
+        <item>Los Sims 3: Criaturas sobrenaturales</item>
+        <item>Los Sims 3: Y las cuatro estaciones</item>
+        <item>Los Sims 3: Movida en la Facultad</item>
+        <item>Los Sims 3: Aventura en la Isla</item>
+        <item>Los Sims 3: Hacia el futuro</item>
+    </string-array>
+
+    <string-array name="sims3_stuff_packs">
+        <item>Los Sims 3: Diseño y Tecnología Accesorios</item>
+        <item>Los Sims 3: ¡Quemando rueda! Accesorios</item>
+        <item>Los Sims 3: Patios y Jardines Accesorios</item>
+        <item>Los Sims 3: Vida en la ciudad Accesorios</item>
+        <item>Los Sims 3: Suite de Ensueño</item>
+        <item>Los Sims 3: Katy Perry - Dulce Tentación</item>
+        <item>Los Sims 3: Diesel</item>
+        <item>Los Sims 3: Los 70 80 90</item>
+        <item>Los Sims 3: De Cine</item>
+    </string-array>
+
+    <string-array name="sims3_compilation_packs">
+        <item>Los Sims 3: Deluxe</item>
+        <item>Los Sims 3: Edición limitada</item>
+    </string-array>
+    <string name="continuar">Continuar</string>
+    <string name="usuario_vacio">Rellene nombre de usuario</string>
+    <string name="usuario">Usuario</string>
+    <string name="verificacion_datos">Verificando datos</string>
+    <string name="verificando_usuario">Verificando nombre de usuario ...</string>
+</resources>

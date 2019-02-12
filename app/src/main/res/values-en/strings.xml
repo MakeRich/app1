@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sims App</string>
+    <string name="introducir_usuario">Introduce your username</string>
+
+    <!-- Sims 1 -->
+    <string-array name="sims1_expansion_packs">
+        <item>The Sims: Livin Large</item>
+        <item>The Sims: House Party</item>
+        <item>The Sims: Hot Date</item>
+        <item>The Sims: Vacation</item>
+        <item>The Sims: Unleashed</item>
+        <item>The Sims: Superstar</item>
+        <item>The Sims: Makin Magic</item>
+    </string-array>
+
+    <string-array name="sims1_compilation_packs">
+        <item>The Sims: Deluxe Edition</item>
+        <item>The Sims: Double Deluxe</item>
+        <item>The Sims: Mega Deluxe</item>
+        <item>The Sims: Triple Deluxe</item>
+        <item>The Sims: Complete Collection</item>
+        <item>The Sims: Expansion Collection</item>
+        <item>The Sims: Expansion Three-Pack</item>
+    </string-array>
+
+    <!-- Sims 2-->
+    <string-array name="sims2_expansion_packs">
+        <item>The Sims 2: University</item>
+        <item>The Sims 2: Nightlife</item>
+        <item>The Sims 2: Open for Business</item>
+        <item>The Sims 2: Pets</item>
+        <item>The Sims 2: Seasons</item>
+        <item>The Sims 2: Bon Voyage</item>
+        <item>The Sims 2: FreeTime</item>
+        <item>The Sims 2: Apartment Life</item>
+    </string-array>
+
+    <string-array name="sims2_stuff_packs">
+        <item>The Sims 2: Holiday Party Pack</item>
+        <item>The Sims 2: Family Fun Stuff</item>
+        <item>The Sims 2: Glamour Life Stuff</item>
+        <item>The Sims 2: Happy Holiday Stuff</item>
+        <item>The Sims 2: Celebration! Stuff</item>
+        <item>The Sims 2: H&amp;M Fashion Stuff</item>
+        <item>The Sims 2: Teen Style Stuff</item>
+        <item>The Sims 2: Kitchen &amp; Bath Interior Design Stuff</item>
+        <item>The Sims 2: IKEA Home Stuff</item>
+        <item>The Sims 2: Mansion &amp; Garden Stuff</item>
+    </string-array>
+
+    <string-array name="sims2_compilation_packs">
+        <item>The Sims 2: Holiday Edition (2005)</item>
+        <item>The Sims 2: Holiday Edition (2006)</item>
+        <item>The Sims 2: Deluxe</item>
+        <item>The Sims 2: Double Deluxe</item>
+        <item>The Sims 2: University Life Collection</item>
+        <item>The Sims 2: Best of Business Collection</item>
+        <item>The Sims 2: Fun with Pets Collection</item>
+    </string-array>
+
+    <!-- Sims 3 -->
+    <string-array name="sims3_expansion_packs">
+        <item>The Sims 3: World Adventures</item>
+        <item>The Sims 3: Ambitions</item>
+        <item>The Sims 3: Late Night</item>
+        <item>The Sims 3: Generations</item>
+        <item>The Sims 3: Pets</item>
+        <item>The Sims 3: Showtime</item>
+        <item>The Sims 3: Supernatural</item>
+        <item>The Sims 3: Seasons</item>
+        <item>The Sims 3: University Life</item>
+        <item>The Sims 3: Island Paradise</item>
+        <item>The Sims 3: Into the Future</item>
+    </string-array>
+
+    <string-array name="sims3_stuff_packs">
+        <item>The Sims 3: High-End Loft Stuff</item>
+        <item>The Sims 3: Fast Lane Stuff</item>
+        <item>The Sims 3: Outdoor Living Stuff</item>
+        <item>The Sims 3: Master Suite Stuff</item>
+        <item>The Sims 3: Katy Perry Sweet Treats</item>
+        <item>The Sims 3: Diesel Stuff</item>
+        <item>The Sims 3: 70s, 80s, &amp; 90s Stuff</item>
+        <item>The Sims 3: Movie Stuff</item>
+    </string-array>
+
+    <string-array name="sims3_compilation_packs">
+        <item>The Sims 3: Deluxe</item>
+        <item>The Sims 3: Plus Pets</item>
+        <item>The Sims 3: Plus Showtime</item>
+        <item>The Sims 3: Plus Supernatural</item>
+        <item>The Sims 3: Plus Seasons</item>
+        <item>The Sims 3: Plus University Life</item>
+        <item>The Sims 3: Plus Island Paradise</item>
+    </string-array>
+    <string name="continuar">Continue</string>
+    <string name="usuario_vacio">Please fill username</string>
+    <string name="usuario">Username</string>
+    <string name="verificacion_datos">Checking data</string>
+    <string name="verificando_usuario">Checking username ...</string>
+</resources>

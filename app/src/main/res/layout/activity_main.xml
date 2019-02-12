@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/free_packs_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/letras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/introducir_usuario_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/introducir_usuario"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/free_packs_image_view" />
+
+    <EditText
+        android:id="@+id/usuario_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/usuario"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/introducir_usuario_text_view"
+        app:layout_constraintStart_toStartOf="@+id/introducir_usuario_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/introducir_usuario_text_view" />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-1560403654736360/8742422856"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/continuar_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="comprobarUsuario"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+        android:text="@string/continuar"
+        app:layout_constraintEnd_toEndOf="@+id/usuario_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/usuario_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/usuario_edit_text" />
+
+</android.support.constraint.ConstraintLayout>
