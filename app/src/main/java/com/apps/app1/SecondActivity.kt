@@ -1,6 +1,8 @@
 package com.apps.app1
 
 import android.app.Activity
+import android.content.Context
+import android.content.Intent
 import android.graphics.Typeface
 import android.os.Bundle
 import android.widget.TextView
@@ -8,14 +10,14 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.InterstitialAd
 
-class Formularioctivity : Activity() {
+class SecondActivity : Activity() {
 
     lateinit var adView : AdView
     lateinit var intersticialAd : InterstitialAd
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.formulario_activity)
+        setContentView(R.layout.second_activity)
 
         inicializarFuenteTextos()
 
@@ -24,6 +26,16 @@ class Formularioctivity : Activity() {
         inicializarIntersticial()
 
         cargarAnunciosIntersticial()
+    }
+
+    companion object {
+
+        // Aqui se podrian pasar parametros
+
+        fun newIntent(context: Context): Intent {
+            val intent = Intent(context, SecondActivity::class.java)
+            return intent
+        }
     }
 
     /**

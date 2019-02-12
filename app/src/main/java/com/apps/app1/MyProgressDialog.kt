@@ -5,7 +5,7 @@ import android.content.Context
 import android.os.AsyncTask
 import android.os.CountDownTimer
 
-class MyProgressDialog : AsyncTask<Void, Void, Void> {
+abstract class MyProgressDialog : AsyncTask<Void, Void, Void> {
 
     val contexto: Context
     lateinit var progressDialog: ProgressDialog
@@ -35,11 +35,21 @@ class MyProgressDialog : AsyncTask<Void, Void, Void> {
             this.progressDialog.dismiss()
         }
 
-//        val formulario = Intent(this@MainActivity, FormularioActivity::class.java)
-//        startActivity(formulario)
+        // Abrir activity
+        abrirActivity()
 
+        // Otras operaciones
+        otrasOperaciones()
     }
 
+    abstract fun abrirActivity()
+
+    abstract fun otrasOperaciones()
+
+    /**
+     * Muestra todos los mensajes de la lista repartidos equitativamente en todo el tiempo que dure
+     * el progress dialog.
+     */
     private fun mostrarMensajes(): CountDownTimer {
         val numeroMensajes: Int = this.mensajes.size
         var contador = 0

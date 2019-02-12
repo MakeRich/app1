@@ -1,6 +1,8 @@
 package com.apps.app1
 
 import android.app.Activity
+import android.content.Context
+import android.content.Intent
 import android.graphics.Typeface
 import android.os.Bundle
 import android.view.View
@@ -77,6 +79,30 @@ class MainActivity : Activity() {
      */
     private fun abrirProgressDialog() {
         val mensajes: List<String> = Arrays.asList(getString(R.string.verificando_usuario))
-        MyProgressDialog(this, getString(R.string.verificacion_datos), mensajes, 3000).execute()
+        ProgressDialog(this, getString(R.string.verificacion_datos), mensajes, 3000).execute()
+    }
+
+    /**
+     * Clase interna que extiende de una clase personalizada. En esta clase se pueden
+     * redefinir ciertos comportamientos.
+     */
+    class ProgressDialog : MyProgressDialog {
+
+        constructor(contexto: Context, titulo: String, mensajes: List<String>, duracion: Long) : super(
+            contexto,
+            titulo,
+            mensajes,
+            duracion
+        )
+
+        override fun abrirActivity() {
+            val secondActivity = Intent(contexto, SecondActivity::class.java)
+            this.contexto.startActivity(secondActivity)
+        }
+
+        override fun otrasOperaciones() {
+            // Aqui poner otras operaciones si se quiere
+        }
+
     }
 }
